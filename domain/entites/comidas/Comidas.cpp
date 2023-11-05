@@ -11,19 +11,18 @@ Comida::Comida(string tipo_comida, string Descripcion_comida, string imagen_comi
     this->has_soda = (hasSoda == 1) ? true : false;
 }
 
-int Comida::calcPeso(Comida* user) {
+int Comida::calcPeso(string comida, int price, bool has_soda) {
     int peso = 0;
 
-    if (this->price <= user->price + 10000 && this->price >= user->price - 10000) {
+    if (this->price <= price + 10000 && this->price >= price - 10000) {
         peso += 10;
     }
-    if (this->tipo_comida == user->tipo_comida) {
+    if (this->tipo_comida == comida) {
         peso += 10;
     }
-    if (this->has_soda == user->has_soda) {
+    if (this->has_soda == has_soda) {
         peso += 10;
     }
-
     return peso;
 }
 
