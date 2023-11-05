@@ -1,0 +1,21 @@
+tipo_comida,Descripcion_comida,imagen_comida,titulo_comida,Restaurante_comida,descuento_comida
+Mexicana,"Tacos de Carnitas","https://ejemplo.com/imagen1.jpg","Tacos de Carnitas","Sabor Mexicano",0.15
+Colombiana,"Bandeja Paisa","https://ejemplo.com/imagen2.jpg","Bandeja Paisa","Rincón Paisa",0.1
+China,"Pollo a la Naranja","https://ejemplo.com/imagen3.jpg","Pollo a la Naranja","Dragón Dorado",0.2
+Italiana,"Lasagna","https://ejemplo.com/imagen4.jpg","Lasagna","La Trattoria",0.25
+India,"Pollo Tikka Masala","https://ejemplo.com/imagen5.jpg","Pollo Tikka Masala","Esencia India",0.15
+Mexicana,"Enchiladas Verdes","https://ejemplo.com/imagen6.jpg","Enchiladas Verdes","El Sol Azteca",0.1
+Colombiana,"Ajiaco","https://ejemplo.com/imagen7.jpg","Ajiaco","Casa Andina",0.2
+China,"Arroz Frito con Pollo","https://ejemplo.com/imagen8.jpg","Arroz Frito con Pollo","Bambú Imperial",0.25
+Italiana,"Pizza Margherita","https://ejemplo.com/imagen9.jpg","Pizza Margherita","Pizzería Bella Napoli",0.15
+India,"Samosas","https://ejemplo.com/imagen10.jpg","Samosas","Taj Mahal Delights",0.15
+Mexicana,"Ceviche","https://ejemplo.com/imagen11.jpg","Ceviche","Mariscos del Mar",0.1
+Colombiana,"Sancocho","https://ejemplo.com/imagen12.jpg","Sancocho","Sabores Tropicales",0.2
+China,"Ternera con Brócoli","https://ejemplo.com/imagen13.jpg","Ternera con Brócoli","Gran Muralla",0.25
+Italiana,"Risotto de Champiñones","https://ejemplo.com/imagen14.jpg","Risotto de Champiñones","Ristorante Funghi",0.15
+India,"Butter Chicken","https://ejemplo.com/imagen15.jpg","Butter Chicken","Spice Garden",0.15
+Mexicana,"Tamales","https://ejemplo.com/imagen16.jpg","Tamales","Antojitos Mexicanos",0.1
+Colombiana,"Arepa de Chócolo","https://ejemplo.com/imagen17.jpg","Arepa de Chócolo","Rincón Criollo",0.2
+China,"Dim Sum","https://ejemplo.com/imagen18.jpg","Dim Sum","Jardín de Sabores",0.25
+Italiana,"Spaghetti Carbonara","https://ejemplo.com/imagen19.jpg","Spaghetti Carbonara","Mamma Mia Trattoria",0.15
+India,"Paneer Tikka","https://ejemplo.com/imagen20.jpg","Paneer Tikka","Bollywood Bites",0.15
