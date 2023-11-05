@@ -1,32 +1,30 @@
-tipo_comida,Descripcion_comida,imagen_comida,titulo_comida,Restaurante_comida,descuento_comida
-Mexicana,"Tacos de Carnitas","https://ejemplo.com/imagen1.jpg","Tacos de Carnitas","Sabor Mexicano",0.15
-Colombiana,"Bandeja Paisa","https://ejemplo.com/imagen2.jpg","Bandeja Paisa","Rincón Paisa",0.1
-China,"Pollo a la Naranja","https://ejemplo.com/imagen3.jpg","Pollo a la Naranja","Dragón Dorado",0.2
-Italiana,"Lasagna","https://ejemplo.com/imagen4.jpg","Lasagna","La Trattoria",0.25
-India,"Pollo Tikka Masala","https://ejemplo.com/imagen5.jpg","Pollo Tikka Masala","Esencia India",0.15
-Mexicana,"Enchiladas Verdes","https://ejemplo.com/imagen6.jpg","Enchiladas Verdes","El Sol Azteca",0.1
-Colombiana,"Ajiaco","https://ejemplo.com/imagen7.jpg","Ajiaco","Casa Andina",0.2
-China,"Arroz Frito con Pollo","https://ejemplo.com/imagen8.jpg","Arroz Frito con Pollo","Bambú Imperial",0.25
-Italiana,"Pizza Margherita","https://ejemplo.com/imagen9.jpg","Pizza Margherita","Pizzería Bella Napoli",0.15
-India,"Samosas","https://ejemplo.com/imagen10.jpg","Samosas","Taj Mahal Delights",0.15
-Mexicana,"Ceviche","https://ejemplo.com/imagen11.jpg","Ceviche","Mariscos del Mar",0.1
-Colombiana,"Sancocho","https://ejemplo.com/imagen12.jpg","Sancocho","Sabores Tropicales",0.2
-China,"Ternera con Brócoli","https://ejemplo.com/imagen13.jpg","Ternera con Brócoli","Gran Muralla",0.25
-Italiana,"Risotto de Champiñones","https://ejemplo.com/imagen14.jpg","Risotto de Champiñones","Ristorante Funghi",0.15
-India,"Butter Chicken","https://ejemplo.com/imagen15.jpg","Butter Chicken","Spice Garden",0.15
-Mexicana,"Tamales","https://ejemplo.com/imagen16.jpg","Tamales","Antojitos Mexicanos",0.1
-Colombiana,"Arepa de Chócolo","https://ejemplo.com/imagen17.jpg","Arepa de Chócolo","Rincón Criollo",0.2
-China,"Dim Sum","https://ejemplo.com/imagen18.jpg","Dim Sum","Jardín de Sabores",0.25
-Italiana,"Spaghetti Carbonara","https://ejemplo.com/imagen19.jpg","Spaghetti Carbonara","Mamma Mia Trattoria",0.15
-India,"Paneer Tikka","https://ejemplo.com/imagen20.jpg","Paneer Tikka","Bollywood Bites",0.15
-tipo_comida,Descripcion_comida,imagen_comida,titulo_comida,Restaurante_comida,descuento_comida
-Mexicana,"Quesadillas de Huitlacoche","https://ejemplo.com/imagen21.jpg","Quesadillas de Huitlacoche","El Sazón Azteca",0.1
-Colombiana,"Empanadas de Carne","https://ejemplo.com/imagen22.jpg","Empanadas de Carne","Sabor Criollo",0.15
-China,"Arroz Chaufa","https://ejemplo.com/imagen23.jpg","Arroz Chaufa","Mandarín Express",0.2
-Italiana,"Ravioli de Espinacas","https://ejemplo.com/imagen24.jpg","Ravioli de Espinacas","Nonna's Kitchen",0.1
-India,"Curry de Lentejas","https://ejemplo.com/imagen25.jpg","Curry de Lentejas","Taj Mahal Delights",0.2
-Mexicana,"Chiles Rellenos","https://ejemplo.com/imagen26.jpg","Chiles Rellenos","El Rincón del Sabor",0.15
-Colombiana,"Pandebonos","https://ejemplo.com/imagen27.jpg","Pandebonos","Sabor del Valle",0.1
-China,"Rollitos Primavera","https://ejemplo.com/imagen28.jpg","Rollitos Primavera","Palacio Oriental",0.25
-Italiana,"Ossobuco","https://ejemplo.com/imagen29.jpg","Ossobuco","Gusto Italiano",0.15
-India,"Biryani de Pollo","https://ejemplo.com/imagen30.jpg","Biryani de Pollo","Krishna's Palace",0.2
+Mexicana,"Tacos de Carnitas","https://ejemplo.com/imagen1.jpg","Tacos de Carnitas","Sabor Mexicano",0.15,35000
+Colombiana,"Bandeja Paisa","https://ejemplo.com/imagen2.jpg","Bandeja Paisa","Rincón Paisa",0.1,42000
+China,"Pollo a la Naranja","https://ejemplo.com/imagen3.jpg","Pollo a la Naranja","Dragón Dorado",0.2,28000
+Italiana,"Lasagna","https://ejemplo.com/imagen4.jpg","Lasagna","La Trattoria",0.25,55000
+India,"Pollo Tikka Masala","https://ejemplo.com/imagen5.jpg","Pollo Tikka Masala","Esencia India",0.15,48000
+Mexicana,"Enchiladas Verdes","https://ejemplo.com/imagen6.jpg","Enchiladas Verdes","El Sol Azteca",0.1,32000
+Colombiana,"Ajiaco","https://ejemplo.com/imagen7.jpg","Ajiaco","Casa Andina",0.2,52000
+China,"Arroz Frito con Pollo","https://ejemplo.com/imagen8.jpg","Arroz Frito con Pollo","Bambú Imperial",0.25,29000
+Italiana,"Pizza Margherita","https://ejemplo.com/imagen9.jpg","Pizza Margherita","Pizzería Bella Napoli",0.15,36000
+India,"Samosas","https://ejemplo.com/imagen10.jpg","Samosas","Taj Mahal Delights",0.15,43000
+Mexicana,"Ceviche","https://ejemplo.com/imagen11.jpg","Ceviche","Mariscos del Mar",0.1,45000
+Colombiana,"Sancocho","https://ejemplo.com/imagen12.jpg","Sancocho","Sabores Tropicales",0.2,26000
+China,"Ternera con Brócoli","https://ejemplo.com/imagen13.jpg","Ternera con Brócoli","Gran Muralla",0.25,38000
+Italiana,"Risotto de Champiñones","https://ejemplo.com/imagen14.jpg","Risotto de Champiñones","Ristorante Funghi",0.15,49000
+India,"Butter Chicken","https://ejemplo.com/imagen15.jpg","Butter Chicken","Spice Garden",0.15,37000
+Mexicana,"Tamales","https://ejemplo.com/imagen16.jpg","Tamales","Antojitos Mexicanos",0.1,44000
+Colombiana,"Arepa de Chócolo","https://ejemplo.com/imagen17.jpg","Arepa de Chócolo","Rincón Criollo",0.2,32000
+China,"Dim Sum","https://ejemplo.com/imagen18.jpg","Dim Sum","Jardín de Sabores",0.25,56000
+Italiana,"Spaghetti Carbonara","https://ejemplo.com/imagen19.jpg","Spaghetti Carbonara","Mamma Mia Trattoria",0.15,28000
+India,"Paneer Tikka","https://ejemplo.com/imagen20.jpg","Paneer Tikka","Bollywood Bites",0.15,42000
+Mexicana,"Quesadillas de Huitlacoche","https://ejemplo.com/imagen21.jpg","Quesadillas de Huitlacoche","El Sazón Azteca",0.1,35000
+Colombiana,"Empanadas de Carne","https://ejemplo.com/imagen22.jpg","Empanadas de Carne","Sabor Criollo",0.15,42000
+China,"Arroz Chaufa","https://ejemplo.com/imagen23.jpg","Arroz Chaufa","Mandarín Express",0.2,28000
+Italiana,"Ravioli de Espinacas","https://ejemplo.com/imagen24.jpg","Ravioli de Espinacas","Nonna's Kitchen",0.1,45000
+India,"Curry de Lentejas","https://ejemplo.com/imagen25.jpg","Curry de Lentejas","Taj Mahal Delights",0.2,49000
+Mexicana,"Chiles Rellenos","https://ejemplo.com/imagen26.jpg","Chiles Rellenos","El Rincón del Sabor",0.15,38000
+Colombiana,"Pandebonos","https://ejemplo.com/imagen27.jpg","Pandebonos","Sabor del Valle",0.1,44000
+China,"Rollitos Primavera","https://ejemplo.com/imagen28.jpg","Rollitos Primavera","Palacio Oriental",0.25,32000
+Italiana,"Ossobuco","https://ejemplo.com/imagen29.jpg","Ossobuco","Gusto Italiano",0.15,56000
+India,"Biryani de Pollo","https://ejemplo.com/imagen30.jpg","Biryani de Pollo","Krishna's Palace",0.2,37000
