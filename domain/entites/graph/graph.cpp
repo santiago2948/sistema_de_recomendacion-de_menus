@@ -27,10 +27,10 @@ Vertex* Graph::getVertex(string name){
     return NULL;
 }
 
-void Graph::InsertVertex(string name){
+void Graph::InsertVertex(string name, Comida comida){
     if(this->getVertex(name)==NULL){
         if(this->isEmpty()){
-            this->head=new Vertex(name);
+            this->head=new Vertex(comida,name);
         }else{
             Vertex* i = this->head;
 
@@ -108,67 +108,4 @@ void Graph::deleteVertex(string name){
     }else{
         cout<<"vertice no existente"<<endl;
     }
-}
-
-void Graph:: Dijkstra(string origen){
-    Vertex* vorigen=this->getVertex(origen);
-    if(vorigen==NULL) return;
-    else{
-        map<Vertex*, map<Vertex*, int>> matriz;
-        map<Vertex*, bool> visitados;
-        map<Vertex*, Vertex*> rutas;
-        map<Vertex*, int> cola;
-        map<Vertex*, int> distancias;
-
-        Vertex* vi = this->head;
-
-        while(vi!=NULL){
-            visitados[vi]=false;
-            rutas[vi]= NULL;
-            distancias[vi]= numeric_limits<int>::max();
-
-            Vertex* vj= this->head;
-
-            while(vj!=NULL){
-                matriz[vi][vj]=numeric_limits<int>::max();
-                vj=vj->sig;
-            }
-
-            Arista* aj= vi->ari;
-
-            while(aj!=NULL){
-                matriz[vi][aj->destino]= aj->precio;
-                aj= aj->sig;
-            }
-            vi=vi->sig;
-        }
-        distancias[vorigen]=0;
-        visitados[vorigen]=true;
-        cola[vorigen]=distancias[vorigen];
-
-        while(!cola.empty()){
-            map<Vertex*, int>::iterator iter = min_element(cola.begin(), cola.end(), costoMinimo);
-
-            Arista* ai= iter->first->ari;
-
-            while(ai!=NULL){
-                if(!visitados[ai->destino]){
-                    if(distancias[ai->destino] > distancias[iter->first]+ matriz[iter->first][ai->destino]){
-                        distancias[ai->destino]=distancias[iter->first]+ matriz[iter->first][ai->destino];
-                        rutas[ai->destino]=iter->first;
-                        cola[ai->destino]=distancias[ai->destino];
-
-                    }
-                }
-                ai=ai->sig;
-            }
-            cola.erase(iter->first);
-        }
-
-    }
-    
-}
-
-bool costoMinimo(const pair<Vertex*, int>& a, const pair<Vertex*, int>& b){
-    return a.second<b.second;
 }

@@ -1,19 +1,14 @@
 {
     "configurations": [
-      {
-        "name": "Win32",
-        "includePath": [
-          "${workspaceFolder}/**",
-          "C:/Program Files/MySQL/MySQL Connector C++ 8.2/lib64",
-          "C:\\Program Files\\MySQL\\MySQL Connector C++ 8.2\\include" // Asegúrate de que esta ruta sea correcta
-        ],
-        "defines": [],
-        "compilerPath": "C:\\TDM-GCC-64\\bin\\g++.exe",  // Corregido: cambió "\" a "\\"
+        {
+            "name": "Win32",
+            "includePath": [],
+            "defines": [],
+            "compilerPath": "C:\\TDM-GCC-64\\bin\\g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"
-      }
+        }
     ],
     "version": 4
-  }
-  
+}

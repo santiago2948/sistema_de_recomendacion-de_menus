@@ -1,7 +1,7 @@
 #include "vertex.h"
 
-Vertex:: Vertex(string _nombre){
-    this->nombre= _nombre;
+Vertex:: Vertex(Comida _comida){
+    this->comida= _comida;
     this->ari=NULL;
     this->sig=NULL;
 }
