@@ -3,29 +3,41 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include "domain/entites/Comidas/Comidas.h"
+using namespace std;
 
+
+
+vector <Comida> procesar_Data(const vector<vector<string>>& data){
+        vector<Comida> comida;
+        for (const auto& row : data){
+            Comida comidas(row);
+            comida.push_back(comidas);
+        }
+        return comida;
+    }
 
 
 int main() {
     // Abre el archivo CSV
-    std::ifstream csvFile("assets/menus.csv");
+    ifstream csvFile("assets/menus.csv");
 
     // Verifica si el archivo se abrió correctamente
     if (!csvFile.is_open()) {
-        std::cerr << "Error al abrir el archivo CSV." << std::endl;
+        cerr << "Error al abrir el archivo CSV." << endl;
         return 1;
     }
 
-    std::string line;
-    std::vector<std::vector<std::string>> data; // Almacenará los datos CSV
+    string line;
+    vector<vector<string>> data; // Almacenará los datos CSV
 
     // Lee y analiza el archivo CSV línea por línea
-    while (std::getline(csvFile, line)) {
-        std::istringstream ss(line);
-        std::vector<std::string> row;
-        std::string cell;
+    while (getline(csvFile, line)) {
+        istringstream ss(line);
+        vector<string> row;
+        string cell;
 
-        while (std::getline(ss, cell, ',')) { // Suponiendo que el delimitador es una coma
+        while (getline(ss, cell, ',')) { // Suponiendo que el delimitador es una coma
             row.push_back(cell);
         }
 
@@ -34,13 +46,19 @@ int main() {
 
     // Cierra el archivo CSV
     csvFile.close();
-
+    //Se procesa
+    
     // Ahora puedes acceder a los datos CSV a través del vector "data"
-
     // Ejemplo: Mostrar el contenido de la primera celda
     if (!data.empty() && !data[0].empty()) {
-        std::cout << "Contenido de la primera celda: " << data[0][0] << std::endl;
+        vector<Comida> retorno=procesar_Data(data);
+        for(size_t i =0; i< retorno.size();i++){
+            cout<< retorno[i].getDescripcion()<<endl;
+        }
     }
 
+    
     return 0;
+
+
 }
