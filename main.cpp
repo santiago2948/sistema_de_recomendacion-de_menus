@@ -8,7 +8,7 @@
 
 int main() {
     // Abre el archivo CSV
-    std::ifstream csvFile("ejemplo.csv");
+    std::ifstream csvFile("assets/menus.csv");
 
     // Verifica si el archivo se abrió correctamente
     if (!csvFile.is_open()) {
