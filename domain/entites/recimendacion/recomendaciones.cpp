@@ -1,7 +1,7 @@
 #include "recomendacion.h"
 #include <algorithm>
-Recomendacion::Recomendacion(MenuDatasource& MenuDatasource){
-    this->comidas=MenuDatasource;
+typedef tuple<int, Comida*> menues;
+Recomendacion::Recomendacion(vector<Comida> MenuData){
 }
     
 vector<tuple<int, Comida*>> Recomendacion::getRecomendacion(String tipo, int price, bool hasSoda){
