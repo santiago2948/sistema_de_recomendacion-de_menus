@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "xstring": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "tuple": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
