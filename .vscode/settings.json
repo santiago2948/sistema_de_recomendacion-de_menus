@@ -2,6 +2,17 @@
     "files.associations": {
         "xstring": "cpp",
         "limits": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp",
         "tuple": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
