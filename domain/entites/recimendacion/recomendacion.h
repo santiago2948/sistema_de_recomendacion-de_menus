@@ -1,16 +1,16 @@
-#pragma once;
+#pragma once
 #include <iostream>
 #include <tuple>
 #include "../comidas/Comidas.h"
-#include "../../../datasources/menuDatasource/menu_datasource.h"
 using namespace std;
 
 class Recomendacion{
+
 public:
-    Recomendacion(MenuDatasource& MenuDatasource);
-    vector<tuple<int, Comida*>> getRecomendacion(String tipo,bool hasSoda, int price);
+    Recomendacion(vector<Comida>& comidas);
+    vector<tuple<int, Comida*>> getRecomendacion(string tipo,int price,bool hasSoda);
+    
+
 private:
     vector<Comida> comidas;
-    Comida comidaRecomenda;
-    MenuDatasource& MenuDatasource;
 };

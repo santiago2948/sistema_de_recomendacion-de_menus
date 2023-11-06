@@ -35,6 +35,7 @@ Comida::Comida(const vector<string>& row) {
         Restaurante_comida = row[4];
         descuento_comida = row[5];
         price = stoi(row[6]);
+        has_soda= stoi(row[7])==1? true: false;
     }
 }
 
